@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+ }
+
+ .container{
+       background-color: rgb(228, 212, 212);
+       min-width: 1200px;
+       height: 1200px;
+       border: 10px solid grey;
+ }
+  
+ .top_container{
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-between;
+}
+.top_container h1{
+   font-size: 60px;
+   font-weight : bold;
+   color: black;
+   text-transform: uppercase;
+}
+ 
+.content{
+   max-width: 900px;
+   margin: 0 auto;
+}
+.image_container{
+   border-radius: 50%;
+   overflow: hidden;
+}
+.image_container,img{
+      height: 420px;
+      width: 400px;
+   }
+
+.about_section{
+   margin-top: 10px;
+   font-size: 2rem;
+}
+.about_section{
+   text-align:  left,right;
+    letter-spacing: 1.5px;
+}
+footer{
+   text-align: end;
+   margin-top: 60px;
+}
